@@ -1,0 +1,158 @@
+body {
+    background-image: url(images/background-picture.jpg);
+    color: azure;
+    font-family: cursive;
+    text-align: center;
+}
+
+.header {
+    font-family: Dancing Script;
+    font-size: xxx-large;
+}
+
+.f1>label {
+    display: inline-block;
+    padding-left: 10%;
+}
+
+.f1>input[type="text"] {
+    padding: 0.5em;
+    background-color: transparent;
+    border-color: goldenrod;
+    font-family: Source Code Pro;
+    font-size: medium;
+    color: azure;
+    border-radius: 0.5em;
+}
+
+
+.f1 {
+    flex: 100%;
+    padding: 1px;
+    height: 50px;
+    padding-right: 30%;
+    padding-left: 8%;
+}
+
+.f2 {
+    flex: 100%;
+    padding: 1px;
+    height: 50px;
+}
+
+.f3 {
+    flex: 100%;
+    padding: 1px;
+    height: 50px;
+    padding-right: 30%;
+}
+
+button:hover {
+    background-color: rgb(131, 95, 4);
+    transition: 0.5s;
+}
+
+.btn {
+    padding: 1em 0em 1em 0em;
+    width: 8.5em;
+    background-color: goldenrod;
+    color: black;
+    font-weight: bold;
+    font-family: Exo;
+    border: 0;
+    cursor: pointer;
+    border-radius: 2em;
+}
+
+.buy-btn {
+    padding: 1em 0em 1em 0em;
+    width: 10em;
+    background-color: goldenrod;
+    color: black;
+    font-weight: bold;
+    font-family: Exo;
+    border: 0;
+    cursor: pointer;
+    border-radius: 2em;
+}
+
+.sub-add {
+    width: 1.5em;
+    height: 1.5em;
+    background-color: darkgoldenrod;
+    color: black;
+    font-weight: bold;
+    font-family: Exo;
+    border: 0;
+    cursor: pointer;
+    border-radius: 5em;
+}
+
+.cart {
+    padding-bottom: 1em;
+    width: 100%;
+    margin-top: 0;
+    border-radius: 0.5em;
+}
+
+.input>label {
+    display: inline-block;
+    width: 15em;
+    padding: 0.5em;
+}
+
+.input>input[type="text"] {
+    padding: 0.5em;
+    background-color: transparent;
+    border-color: goldenrod;
+    font-family: Source Code Pro;
+    font-size: medium;
+    color: azure;
+    border-radius: 0.5em;
+}
+
+.message {
+    padding: 1em;
+    background-color: transparent;
+    margin-bottom: 1em;
+    font-family: Pacifico;
+    font-weight: bold;
+    font-size: larger;
+}
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    text-align: center;
+    vertical-align: bottom;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+    border: 1.5px solid goldenrod;
+}
+
+.radio-btn {
+    cursor: pointer;
+}
+
+@media(min-width:768px) {
+    .body {
+        align-items: center;
+    }
+
+    .cart {
+        width: 100%;
+    }
+
+    .sub-header {
+        display: flex;
+    }
+}
