@@ -90,7 +90,7 @@ document.addEventListener('alpine:init', () => {
             },
 
             message: '',
-            username: '',
+            username: 'Moriti',
             pizzas: [],
             cartId: '',
             payNow: false,
